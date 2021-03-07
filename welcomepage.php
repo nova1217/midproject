@@ -1,3 +1,9 @@
+<?php
+if (isset($_POST["order"]))
+{
+	header("location: Restaurants.php");
+}
+?>
 <html>
 <body>
 
@@ -25,7 +31,10 @@
 <td><img src="logo/burger.jpg" width="220px" height="150px"> <img src="logo/pasta.jpg" width="220px" height="150px"></td>
 
 <tr>
+<form name="welcome" action="" method="post">
 <td colspan="2" align="bottom"><input class="btn-order" type="Submit" value="Order Now" name="order">
+</form>
+</div>
 </tr>
 
 </div>
