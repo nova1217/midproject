@@ -5,10 +5,10 @@ $pass="";
 $err_pass="";
 $hasError=false;
 $err_message="";
-$users=array("nova"=>"1234", 
-             "soumik"=>"12345",
-			 "lamiya"=>"5678",
-			 "rafee"=>"56789");
+$users=array("Buyer"=>"1234", 
+             "Seller"=>"12345",
+			 "Admin"=>"5678",
+			 "Delivery Man"=>"56789");
 			 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
 if(empty($_POST["uname"])){
